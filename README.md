@@ -1,15 +1,19 @@
+[A](#a)&nbsp;|&nbsp;[B](#b)&nbsp;|&nbsp;[C](#c)&nbsp;|&nbsp;[D](#d)&nbsp;|&nbsp;[E](#e)&nbsp;|&nbsp;[F](#f)&nbsp;|&nbsp;[G](#g)&nbsp;|&nbsp;[H](#h)&nbsp;|&nbsp;[J](#j)&nbsp;|&nbsp;[K](#k)&nbsp;|&nbsp;[L](#l)&nbsp;|&nbsp;[M](#m)&nbsp;|&nbsp;[N](#n)&nbsp;|&nbsp;[O](#o)&nbsp;|&nbsp;[P](#p)&nbsp;|&nbsp;Q&nbsp;|&nbsp;[R](#r)&nbsp;|&nbsp;S&nbsp;|&nbsp;[T](#t)&nbsp;|&nbsp;[U](#u)&nbsp;|&nbsp;[V](#v)&nbsp;|&nbsp;[W](#w)&nbsp;|&nbsp;X&nbsp;|&nbsp;[Y](#y)&nbsp;|&nbsp;Z
+
 # Simplified JavaScript Jargon
 
 *Simplified JavaScript Jargon* (short *SJSJ*) is a community-driven attempt at explaining the loads of buzzwords making the current JavaScript ecosystem in a few simple words. The idea is not to replace individual documentations, but to act as some kind of glossary that can be easily referrenced.
 
 If you are willing to contribute, open a pull request to complete, update or fill in a section. Thank you for doing so!
 
+<a name="a"></a>
 ## AngularJS
 
 [AngularJS](https://angularjs.org/) is a structural framework for dynamic web apps. It lets developers use HTML as their template language and lets them extend HTML’s syntax to express their application’s components clearly and succinctly.
 
 Angular’s data binding and dependency injection eliminate much of the code developers would otherwise have to write. And it all happens within the browser, making it an ideal partner with any server technology.
 
+<a name="b"></a>
 ## Babel
 
 [Babel](https://babeljs.io/) (formerly *6to5*) is essentially an [ECMAScript](#ecmascript-es) 6 and beyond transpiler. It means that it is a program that translates future’s JavaScript into today’s widely understood (by browsers) JavaScript. The idea behind such a tool is to allow developers to write their code using ECMAScript new features while still making it work in current browsers (and past) browsers.
@@ -40,16 +44,19 @@ The idea behind Browserify is to make it possible to use existing libraries from
 
 Brunch is fundamentally specialized and geared towards building assets, these files that get used in the end by the runtime platform, usually a web browser. It thus comes pre-equipped with a number of behaviors and features such as concatenation, minification and watching of source files.
 
+<a name="c"></a>
 ## CoffeeScript
 
 [CoffeeScript](http://coffeescript.org/) is a little language that compiles into JavaScript. It is an attempt to expose the good parts of JavaScript in a simple way and friendly syntax, the golden rule being: “It’s just JavaScript”.
 
 The code compiles one-to-one into the equivalent JS, and there is no interpretation at runtime. The compiled output is readable and pretty-printed, will work in every JavaScript runtime, and tends to run as fast or faster than the equivalent handwritten JavaScript.
 
+<a name="d"></a>
 ## D3.js
 
 [D3.js](http://d3js.org/) is a library for manipulating documents based on data. D3 helps bringing data to life using HTML, SVG, and CSS. Its emphasis on web standards gives the full capabilities of modern browsers without tying to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
 
+<a name="e"></a>
 ## ECMAScript (ES)
 
 [ECMAScript](http://www.ecmascript.org/) (shortened as *ES*) is the standardized specification of the scripting language used by JavaScript, as well as less known languages JScript and ActionScript.
@@ -64,10 +71,12 @@ The versioning convention of ECMAScript has been the subject of hot debates. We 
 
 [Express](http://expressjs.com/en/index.html) is a fast, unopinionated, minimalist web framework for [Node.js](#nodejs). Express provides a thin layer of fundamental web application features, without obscuring Node.js features that developers already know and like. The myriad of HTTP utility methods and middleware provided by Express makes creating a robust API quick and easy.
 
+<a name="f"></a>
 ## Flux
 
 [Flux](https://facebook.github.io/flux/) is an application structure that is developed and used at Facebook to complement [React](#react)’s one-way data flow. With Flux, application state and logic are contained in stores.
 
+<a name="g"></a>
 ## Grunt
 
 [Grunt](http://gruntjs.com/) is a task runner aiming at automating tedious and possibly complex tasks. The idea behind Grunt (and its peer [Gulp](#gulp)) is to define tasks that perform (usually file-based) actions. These tasks can then be run through the command line or as part of another build step.
@@ -78,14 +87,17 @@ The versioning convention of ECMAScript has been the subject of hot debates. We 
 
 Gulp also owes its success to its very large ecosystem of plugins, making it easy to perform everyday’s tasks without having to write much code.
 
+<a name="j"></a>
 ## jQuery
 
 [jQuery](https://jquery.com/) is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 
+<a name="k"></a>
 ## Knockout
 
 [Knockout](http://knockoutjs.com/) (shortened as *KO*) is a JavaScript library that helps developers creating rich, responsive display and editor user interfaces with a clean underlying data model. Knockout helps implementing sections of UI that update dynamically (e.g. changes depending on user’s actions or when external data source gets updated) more simply and maintainably.
 
+<a name="m"></a>
 ## Meteor
 
 [Meteor](https://www.meteor.com/) section to be completed.
@@ -94,6 +106,7 @@ Gulp also owes its success to its very large ecosystem of plugins, making it eas
 
 [MooTools](http://mootools.net/) section to be completed.
 
+<a name="n"></a>
 ## Node.js
 
 [Node.js](https://nodejs.org/en/) is an open-source, cross-platform runtime environment for developing server-side web applications built on Chrome’s [V8](#v8) JavaScript engine. These applications are written in JavaScript and can be run within the Node.js runtime.
@@ -110,10 +123,12 @@ Its work is hosted and supported by the [Node.js Foundation](https://nodejs.org/
 
 [nvm](https://github.com/creationix/nvm/blob/master/README.markdown) is a utility to help run multiple versions of [Node.js](#nodejs) (and its branches) on the same machine. It can install, list, and choose versions. It is analagous to [RVM](https://rvm.io/) (Ruby Version Manager).
 
+<a name="p"></a>
 ## PhoneGap
 
 [PhoneGap](http://phonegap.com/) section to be completed.
 
+<a name="r"></a>
 ## React
 
 [React](https://facebook.github.io/react/) is a library developed and used at Facebook for building user interfaces. It can be seen as the V in MVC (Model View Controller) as it makes no assumptions about the rest of the technology stack. Using [React Native](#react-native) it can even be used to power native apps.
@@ -136,20 +151,27 @@ Redux is an alternative to [Flux](#flux) and used a lot together with [React](#r
 
 [RequireJS](http://requirejs.org/) section to be completed.
 
+##Underscore
+[Underscore](http://underscorejs.org/)	 section to be completed.
+
+<a name="t"></a>
 ## TypeScript
 
 [TypeScript](http://www.typescriptlang.org/) is a super-set of the JavaScript language that introduces types (plus interfaces and new JavaScript features). It allows type-checking during development time with supported editors such as [Visual Studio](https://code.visualstudio.com/). The compiler requires information about the “shape” of a module in a _type-definition-file_.
 
+<a name="v"></a>
+## V8
+
+[V8](https://code.google.com/p/v8/) section to be completed.
+
+<a name="w"></a>
+## Webpack
+
+[Webpack](https://github.com/webpack/webpack) helps you managing dependencies in your project, and also offers a friendly and fast development environment, simplifying a lot of common tasks behind a simple configuration file. It also allows you to bundle your modules into static assets for browsers. Its killer feature is the known as [hot module replacement](https://github.com/webpack/docs/wiki/hot-module-replacement-with-webpack), which lets your live code in the browser update automatically as you change files in your preferred editor without a page reload. 
+
+<a name="y"></a>
 ## Yeoman
 
 [Yeoman](http://yeoman.io/) is both a generator builder and an ecosystem. A generator is basically a plugin which will generate files based on user input. Plugins can be run with the `yo` command to scaffold complete projects or useful parts.
 
 Therefore, the goal of a Yeoman generator is usually (but not necessarily) to speed up the setup and installation process of a project or part of a project by packaging it inside a module that can be configured through a question/reply workflow from the command line.
-
-## V8
-
-[V8](https://code.google.com/p/v8/) section to be completed.
-
-## Webpack
-
-[Webpack](https://github.com/webpack/webpack) helps you managing dependencies in your project, and also offers a friendly and fast development environment, simplifying a lot of common tasks behind a simple configuration file. It also allows you to bundle your modules into static assets for browsers. Its killer feature is the known as [hot module replacement](https://github.com/webpack/docs/wiki/hot-module-replacement-with-webpack), which lets your live code in the browser update automatically as you change files in your preferred editor without a page reload. 
